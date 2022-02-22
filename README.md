@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://boluwatifeee.github.io/Order-component/)
 
 ## My process
 
@@ -43,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@boluwatifeee](https://www.frontendmentor.io/profile/boluwatifeee)
 
 
