@@ -1,0 +1,121 @@
+body {
+    background: url(images/pattern-background-desktop.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+/* Classes */
+.card {
+    max-width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px -10px hsl(224, 23%, 55%);
+}
+
+.container {
+    align-self: center;
+}
+
+
+.hero > img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.content {
+    margin-top: 0;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.description {
+    border-radius: 10px;
+}
+
+.description > p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+/* Ids */
+
+#page-heading {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 30px;
+}
+
+
+#plan-type {
+    font-weight: 700;
+}
+
+#price {
+    color: hsl(224, 23%, 55%) ;
+    padding-top: 0;
+}
+
+#music {
+    padding: 20px;
+}
+
+#change {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    padding: 25px;
+}
+
+#change:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#proceed {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 0 5px 20px -5px hsl(245, 75%, 52%);
+}
+
+#proceed:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#cancel {
+    padding-top: 10px;
+    color: hsl(224, 23%, 55%);
+    margin: 50px;
+    font-weight: 700;
+}
+
+#cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
